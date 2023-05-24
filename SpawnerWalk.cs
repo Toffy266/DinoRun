@@ -23,7 +23,7 @@ namespace Gameproject
             if (clock.ElapsedTime.AsSeconds() > randomtime)
             {
                 rand = new Random();
-                randomtime = rand.Next(2, 5);
+                randomtime = rand.Next(2, 6);
 
                 enemyWalk = new EnemyWalk(allObj, Origin);
                 allObj.Add(enemyWalk);
