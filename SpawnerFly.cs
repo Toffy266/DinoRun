@@ -25,7 +25,7 @@ namespace Gameproject
             if (clock.ElapsedTime.AsSeconds() > randomtime)
             {
                 rand = new Random();
-                randomtime = rand.Next(2, 6);
+                randomtime = rand.Next(4, 6);
 
                 enemyfly = new EnemyFly(allObj, Origin);
                 allObj.Add(enemyfly);

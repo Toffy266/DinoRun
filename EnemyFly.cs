@@ -15,7 +15,7 @@ namespace Gameproject
         public EnemyFly(Group allObjs, Vector2f origin) : base(allObjs)
         {
 
-            Origin = new Vector2f(-1290, random.Next(270, 340) * -1);
+            Origin = new Vector2f(-1290, random.Next(270, 345) * -1);
             var sprite = new SpriteEntity();
             sprite.Scale = new Vector2f(4.2f, 4.2f);
             Add(sprite);

@@ -28,7 +28,7 @@ namespace Gameproject
             var walk = new Animation(sprite, fragments.SubArray(0, 6), speed);
             Add(walk);
 
-            var shape = new CollisionRect(sprite.GetGlobalBounds().AdjustSize(0.75f, 0.75f));
+            var shape = new CollisionRect(sprite.GetGlobalBounds().AdjustSize(0.8f, 0.86f));
             collisionObj = new CollisionObj(shape);
             collisionObj.DebugDraw = false;
             collisionObj.OnCollide += OnCollide;

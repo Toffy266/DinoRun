@@ -72,6 +72,13 @@ namespace Gameproject
                 Position -= new Vector2f(0, Data.OverlapRect.Height * direction.Y);
             }
 
+            var meat = objB.Parent as Meat;
+            if (meat != null && !hit)
+            {
+                meat!.Detach();
+                score.playScore += 5;
+            }
+
             if (obstruction != null && !hit)
             {
                 life.allLife -= 204;
@@ -87,14 +94,6 @@ namespace Gameproject
                 }
 
                 clockHit = new Clock();
-
-            }
-
-            var meat = objB.Parent as Meat;
-            if (meat != null && !hit)
-            {
-                meat!.Detach();
-                score.playScore += 5;
             }
         }
 
