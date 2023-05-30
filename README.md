@@ -1,4 +1,4 @@
-# Project CP316 Mobile Programming
+# Project CP215 Game Programming
 
 App  Preview (videos) :
 
