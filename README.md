@@ -1,6 +1,6 @@
 # Project CP215 Game Programming
 
-App Preview (videos) : https://youtu.be/M3Tmk5_0YFA
+Project Preview (videos) : https://youtu.be/M3Tmk5_0YFA
 
 สมาชิก: 
 1) นางสาวบงกช บัวศรี (62102010171)
